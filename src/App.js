@@ -21,7 +21,6 @@ const Hello = () => {
     return (
       <h1 style={{background: color1, color: color2}}>The word is: {input}</h1>
     )
-    console.log(true)
   }else {
     return <h1>The number is: { input }</h1>
   }
